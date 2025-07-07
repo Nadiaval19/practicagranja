@@ -45,5 +45,7 @@ Este proyecto es solo para fines educativos. No está permitido su uso comercial
 
 Plantilla desarrollada por **Claudia MZ**, docente de la materia **Motores de Videojuegos I** en la carrera de **Ingeniería en Animación Digital**.
 
+plantillas de sprites: https://cupnooble.itch.io/sprout-lands-asset-pack
+
 ---
 
