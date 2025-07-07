@@ -3447,7 +3447,19 @@ MonoBehaviour:
     m_ActionId: 4126d4b0-793d-4132-8ae8-92ffaba62f74
     m_ActionName: 'Player/sembrartrigo[/Keyboard/c]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1709297048}
+        m_TargetAssemblyTypeName: movjugador, Assembly-CSharp
+        m_MethodName: SembrarJitomate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: b6ab95ae-6f11-4ab9-b9e8-aae38e0b84b8
     m_ActionName: 'Player/siembrajitomate[/Keyboard/b]'
   m_NeverAutoSwitchControlSchemes: 0
@@ -3497,6 +3509,7 @@ MonoBehaviour:
   velocidad: 5
   entrada: {x: 0, y: 0}
   preFabTrigo: {fileID: 3492116277303020500, guid: d9f68395faf4efd42a0cb98e5d946caf, type: 3}
+  preFabJitomate: {fileID: 6296288833454343748, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
 --- !u!95 &1709297050
 Animator:
   serializedVersion: 7
@@ -3654,6 +3667,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9f68395faf4efd42a0cb98e5d946caf, type: 3}
+--- !u!1001 &2250265858386142387
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6296288833454343748, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_Name
+      value: Jitomate
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275575426304744661, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.1473026
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275575426304744661, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.28648102
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275575426304744661, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.22070004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275575426304744661, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275575426304744661, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275575426304744661, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275575426304744661, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275575426304744661, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275575426304744661, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275575426304744661, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 13ddc7a9ce83b314d81dd80aeecdca19, type: 3}
 --- !u!1001 &8913705782845633702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3723,3 +3793,4 @@ SceneRoots:
   - {fileID: 8913705782845633702}
   - {fileID: 340110454}
   - {fileID: 2123722073469856707}
+  - {fileID: 2250265858386142387}

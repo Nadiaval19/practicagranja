@@ -11,6 +11,7 @@ public class movjugador : MonoBehaviour
          public Vector2 entrada;
          Animator animator;
     public GameObject preFabTrigo;
+    public GameObject preFabJitomate;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -58,5 +59,11 @@ public void SembrarTrigo(InputAction.CallbackContext contexto) {
         Instantiate(preFabTrigo,transform.position, Quaternion.identity);
     }
     }
-
+    public void SembrarJitomate(InputAction.CallbackContext contexto)
+    {
+        if (contexto.started)
+        {
+            Instantiate(preFabJitomate, transform.position, Quaternion.identity);
+        }
+    }
 }

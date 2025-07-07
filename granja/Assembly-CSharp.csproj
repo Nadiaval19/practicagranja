@@ -64,6 +64,7 @@
     <Compile Include="Assets\scripts\GallinaMove.cs" />
     <Compile Include="Assets\scripts\trigoVida.cs" />
     <Compile Include="Assets\scripts\Ponedora.cs" />
+    <Compile Include="Assets\scripts\jitomateVida.cs" />
     <Compile Include="Assets\scripts\movjugador.cs" />
   </ItemGroup>
   <ItemGroup>
