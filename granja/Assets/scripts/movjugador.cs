@@ -66,4 +66,10 @@ public void SembrarTrigo(InputAction.CallbackContext contexto) {
             Instantiate(preFabJitomate, transform.position, Quaternion.identity);
         }
     }
+    private void OnTriggerEnter2D(Collider2D colision) {
+        if (colision.CompareTag("nido")){
+            Destroy(colision.gameObject);
+            GameManager.instancia.SumarHuevo();
+        }
+    }
 }
